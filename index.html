@@ -80,10 +80,16 @@ p {
     margin-top: 26px;
 }
 
-/* Image styling */
-img {
+/* Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.gallery img {
     width: 100%;
-    margin-top: 35px;
     border-radius: 8px;
 }
 
@@ -110,6 +116,7 @@ footer {
         <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#fieldwork">Fieldwork</a>
+        <a href="#gallery">Gallery</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
@@ -141,16 +148,30 @@ The research analyses language ideologies, cultural recovery efforts, and the ch
 <h2 id="fieldwork">Fieldwork</h2>
 
 <p>
-Fieldwork is scheduled to take place in Pau and the village of Aas in southern France. Preliminary visits have informed the development of the ethnographic framework, research design, and community engagement strategy.
+Fieldwork is conducted in Pau and the village of Aas in southern France. Preliminary visits across both research sites have informed the development of the ethnographic framework, research design, and community engagement strategy.
 </p>
 
-<img src="Pau.jpg" alt="Pau, Southern France">
+<h2 id="gallery">Fieldwork Gallery</h2>
+
+<p>
+Selected visual documentation from preliminary visits to Pau and Aas, illustrating public inscriptions, cultural events, and linguistic landscape contexts relevant to the research.
+</p>
+
+<div class="gallery">
+    <img src="./Fieldwork_Pau.jpg" alt="Fieldwork in Pau">
+    <img src="./Fieldwork_Aas.jpg" alt="Fieldwork in Aas">
+    <img src="./LinguisticLandscape_Pau.jpg" alt="Linguistic landscape">
+    <img src="./CulturalEvent_Pau.jpg" alt="Cultural event">
+    <img src="./CommunityContext_Aas.jpg" alt="Community context">
+    <img src="./HeritageDisplay.jpg" alt="Heritage display">
+    <img src="./WhistledPractice_Aas.jpg" alt="Whistled practice">
+</div>
 
 <h2 id="contact">Contact</h2>
 
 <p>
 You can contact me at  
-<a href="mailto:hajna.detremcgrath.2019@mumail.ie" style="color:#6f5c7e; text-decoration:none; font-weight:500;">
+<a href="mailto:hajna.detremcgrath.2019@mumai.ie" style="color:#6f5c7e; text-decoration:none; font-weight:500;">
 hajna.detremcgrath.2019@mumail.ie
 </a>
 </p>
@@ -163,8 +184,3 @@ hajna.detremcgrath.2019@mumail.ie
 
 </body>
 </html>
-
-
-
-
-
