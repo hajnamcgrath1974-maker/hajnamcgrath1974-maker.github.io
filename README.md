@@ -1,4 +1,4 @@
-# [Your Name]
+# Hajna Detre McGrath
 
 PhD Candidate in Linguistics  
 Maynooth University, Ireland  
